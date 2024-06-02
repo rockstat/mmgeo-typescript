@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "pretty": true,
+    "allowJs": true,
+    "allowUnreachableCode": true,
+    "noFallthroughCasesInSwitch": false,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "outDir": "./dist/",
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/@rockstat/rock-me-ts/@types",
+      "@types"
+    ],
+    "baseUrl": "./src/",
+    "paths": {
+      "@app/*": ["*"],
+    }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": true
+}

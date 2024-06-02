@@ -1,0 +1,11 @@
+/.vscode
+/node_modules
+/yarn-error.log
+/deploy
+/.env*
+/emergency
+/config/custom
+/dist
+/migrations/custom/*
+/data
+/.DS_Store
