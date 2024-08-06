@@ -230,7 +230,7 @@ export class AppServer {
     }
     if (this.service_group == 'rst') {
       this.log.info('Starting with RST DB')
-      this.rstDB = loadDB('./data/2024-05-19_feed');
+      this.rstDB = loadDB('./data/rst_feed');
     }
 
     if (this.service_group == 'ip2lgeo') {
